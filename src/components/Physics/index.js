@@ -27,7 +27,8 @@ class Physics extends Component {
       const res = await fetch(url);
       if (res.ok) {
         const data = await res.json();
-        this.setState({ list: data.slice(0,3), apiStatusIs: apiStatus.success });
+        this.setState({ list: data , apiStatusIs: apiStatus.success });
+        
       } else {
         this.setState({ apiStatusIs: apiStatus.fail });
       }
