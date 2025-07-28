@@ -119,6 +119,8 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
+  animation: bounceInImage 0.6s ease-out;
+
 }
 
 /* Hover glow effect */
@@ -167,10 +169,20 @@
   position: relative;
   margin: 30px auto;
 }
-.score-img{
+.score-img {
   height: 200px;
   border-radius: 20px;
   margin: 0px;
+animation: bounceInImage 0.6s ease-out;
+}
+.score-img:active {
+   transform: scale(0.95);
+  box-shadow: 0 4px 8px rgba(6, 190, 182, 0.4);
+}
+@keyframes bounceInImage {
+  0% { transform: scale(0.8); opacity: 0; }
+  60% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); }
 }
 @keyframes spin {
   to {
@@ -304,6 +316,8 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
+  animation: bounceInImage 0.6s ease-out;
+
 }
 
 /* Hover glow effect */
@@ -313,6 +327,7 @@
   box-shadow: 0 8px 20px rgba(6, 190, 182, 0.5);
 
 }
+
 
 /* Click animation */
 .submit-button:active {
@@ -352,10 +367,20 @@
   position: relative;
   margin: 30px auto;
 }
-.score-img{
+.score-img {
   height: 200px;
   border-radius: 20px;
   margin: 0px;
+animation: bounceInImage 0.6s ease-out;
+}
+.score-img:active {
+   transform: scale(0.95);
+  box-shadow: 0 4px 8px rgba(6, 190, 182, 0.4);
+}
+@keyframes bounceInImage {
+  0% { transform: scale(0.8); opacity: 0; }
+  60% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); }
 }
 @keyframes spin {
   to {
@@ -490,6 +515,8 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
+  animation: bounceInImage 0.6s ease-out;
+
 }
 
 /* Hover glow effect */
@@ -538,10 +565,20 @@
   position: relative;
   margin: 30px auto;
 }
-.score-img{
+.score-img {
   height: 200px;
   border-radius: 20px;
   margin: 0px;
+animation: bounceInImage 0.6s ease-out;
+}
+.score-img:active {
+   transform: scale(0.95);
+  box-shadow: 0 4px 8px rgba(6, 190, 182, 0.4);
+}
+@keyframes bounceInImage {
+  0% { transform: scale(0.8); opacity: 0; }
+  60% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); }
 }
 @keyframes spin {
   to {
